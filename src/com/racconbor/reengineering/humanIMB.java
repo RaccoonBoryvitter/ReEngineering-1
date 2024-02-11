@@ -1,14 +1,5 @@
+package com.racconbor.reengineering;
 
-
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        humanIMB humanIMB = new humanIMB(80,1.52);
-        System.out.println(humanIMB.Result());
-    }
-}
 class humanIMB {
     public double W; //Weight Human
     public double H; // Height Human
